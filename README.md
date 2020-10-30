@@ -138,9 +138,14 @@ Response 2
 4. 运行 Flask APP
 
    ```bash
-   $ set FLASK_APP=api.py
+   $ export FLASK_APP=api.py
    $ flask run
    * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+   ```
+   Windows 系统下请运行如下命令：
+   ```shell
+   set FLASK_APP = api.py
+   flask run
    ```
 
 ## 后话
